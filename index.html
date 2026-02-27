@@ -1,0 +1,578 @@
+<!doctype html>
+<html lang="en" data-theme="light">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Anuja Bhatta - Computer Engineering Student and Aspiring Full-Stack Developer portfolio."
+    />
+    <title>Anuja Bhatta | Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <!-- NAVBAR -->
+    <header class="navbar" id="navbar">
+      <div class="logo">Anuja<span>Bhatta</span></div>
+
+      <nav class="nav-links" id="navLinks">
+        <a href="#Home">Home</a>
+        <a href="#About">About</a>
+        <a href="#Education">Education</a>
+        <a href="#Project">Projects</a>
+        <a href="#CV">CV</a>
+        <a href="#Contact">Contact</a>
+      </nav>
+
+      <div class="nav-actions">
+        <button
+          class="theme-btn"
+          id="themeToggle"
+          title="Toggle dark/light mode"
+        >
+          <span id="themeIcon">Dark Mode</span>
+        </button>
+        <button class="hamburger" id="hamburger" aria-label="Open menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </header>
+
+    <!-- MOBILE MENU -->
+    <div class="mobile-menu" id="mobileMenu">
+      <a href="#Home">Home</a>
+      <a href="#About">About</a>
+      <a href="#Education">Education</a>
+      <a href="#Project">Projects</a>
+      <a href="#CV">CV</a>
+      <a href="#Contact">Contact</a>
+    </div>
+
+    <!-- HERO -->
+    <section id="Home" class="hero">
+      <div class="hero-text">
+        <div class="hero-badge">Available for opportunities</div>
+        <h1>Hello, I'm <span>Anuja</span></h1>
+        <h3>Computer Engineering Student | Aspiring Full-Stack Developer</h3>
+        <p>
+          Passionate about building clean, modern and user-friendly web
+          experiences.
+        </p>
+        <div class="hero-btns">
+          <a href="#Project" class="btn btn-primary">View My Work</a>
+          <button class="btn btn-outline" id="downloadCvBtn">
+            Download CV
+          </button>
+          <a href="#Contact" class="btn btn-outline">Contact Me</a>
+        </div>
+      </div>
+      <div class="hero-img-wrap">
+        <img src="my_photo.jpeg" alt="Portrait of Anuja Bhatta" />
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="About" class="section-alt">
+      <div class="section-inner">
+        <p class="section-label">About Me</p>
+        <h2 class="section-title">Who I Am</h2>
+
+        <div class="about-grid">
+          <div class="about-text reveal">
+            <p>
+              I am a 3rd-year Computer Engineering student at Sagarmatha
+              Engineering College with a genuine passion for building things on
+              the web. I thrive at turning ideas into clean, meaningful digital
+              experiences.
+            </p>
+            <p>
+              Currently diving deeper into full-stack development while also
+              exploring Machine Learning. I believe in learning by building —
+              each project teaches me something new.
+            </p>
+
+            <h4>Currently Learning</h4>
+            <ul>
+              <li>HTML, CSS, JavaScript</li>
+              <li>DBMS &amp; SQL</li>
+              <li>Machine Learning (Beginner)</li>
+            </ul>
+
+            <h4>Goal</h4>
+            <p>
+              To become a skilled Full-Stack Developer and work on impactful
+              real-world applications.
+            </p>
+          </div>
+
+          <div class="skills-wrap reveal">
+            <h4>Technical Skills</h4>
+            <div class="skill-row">
+              <div class="skill-top">
+                <span>HTML / CSS</span><span>85%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-fill" data-level="85"></div>
+              </div>
+            </div>
+            <div class="skill-row">
+              <div class="skill-top">
+                <span>JavaScript</span><span>65%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-fill" data-level="65"></div>
+              </div>
+            </div>
+            <div class="skill-row">
+              <div class="skill-top"><span>PHP</span><span>60%</span></div>
+              <div class="skill-bar">
+                <div class="skill-fill" data-level="60"></div>
+              </div>
+            </div>
+            <div class="skill-row">
+              <div class="skill-top"><span>MySQL</span><span>70%</span></div>
+              <div class="skill-bar">
+                <div class="skill-fill" data-level="70"></div>
+              </div>
+            </div>
+            <div class="skill-row">
+              <div class="skill-top"><span>C / C++</span><span>75%</span></div>
+              <div class="skill-bar">
+                <div class="skill-fill" data-level="75"></div>
+              </div>
+            </div>
+            <div class="skill-row">
+              <div class="skill-top"><span>Figma</span><span>70%</span></div>
+              <div class="skill-bar">
+                <div class="skill-fill" data-level="70"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- EDUCATION -->
+    <section id="Education">
+      <div class="section-inner">
+        <p class="section-label">My Journey</p>
+        <h2 class="section-title">Education</h2>
+
+        <div class="edu-timeline">
+          <div class="edu-card reveal">
+            <div class="edu-icon-wrap">
+              <div class="edu-icon-text">B.E</div>
+            </div>
+            <div class="edu-info">
+              <h3>Bachelor in Computer Engineering</h3>
+              <p>Sagarmatha Engineering College, Sanepa, Lalitpur</p>
+            </div>
+            <div class="edu-year">2027 (Expected)</div>
+          </div>
+
+          <div class="edu-card reveal">
+            <div class="edu-icon-wrap">
+              <div class="edu-icon-text">+2</div>
+            </div>
+            <div class="edu-info">
+              <h3>+2 Science (PCM with Computer)</h3>
+              <p>National School of Sciences (NIST), Lainchour, Kathmandu</p>
+            </div>
+            <div class="edu-year">2023</div>
+          </div>
+
+          <div class="edu-card reveal">
+            <div class="edu-icon-wrap">
+              <div class="edu-icon-text">SEE</div>
+            </div>
+            <div class="edu-info">
+              <h3>SEE (Optional Mathematics)</h3>
+              <p>Shree Siddhakali Secondary School</p>
+            </div>
+            <div class="edu-year">2021</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="Project" class="section-alt">
+      <div class="section-inner">
+        <p class="section-label">My Work</p>
+        <h2 class="section-title">Projects</h2>
+
+        <!-- Filter Bar -->
+        <div class="filter-bar">
+          <button class="filter-btn active" data-filter="all">All</button>
+          <button class="filter-btn" data-filter="design">Design</button>
+          <button class="filter-btn" data-filter="web">Web</button>
+          <button class="filter-btn" data-filter="cpp">C / C++</button>
+        </div>
+        <div>
+          <div class="project-grid">
+            <div class="project reveal" data-category="design">
+              <img src="Figma.jpg" alt="Figma UI project screenshot" />
+              <div class="project-body">
+                <div class="project-tags">
+                  <span class="tag">Figma</span>
+                  <span class="tag">UI/UX</span>
+                </div>
+                <h3>Figma UI — Rural Area</h3>
+                <p>Designed UI focused on digital usability in remote areas.</p>
+                <a
+                  href="https://www.figma.com/design/feJbS1ACjcDxy1NFXZBcRy/SparkleSquad?node-id=0-1&t=HyREq2E9y3UB43oz-1"
+                  target="_blank"
+                  class="project-link"
+                  >View Project &rarr;</a
+                >
+              </div>
+            </div>
+          
+           <div class="project reveal" data-category="web">
+            <img
+              src="Portfolio.jpg"
+              alt="Personal portfolio website screenshot"
+            />
+            <div class="project-body">
+              <div class="project-tags">
+                <span class="tag">HTML</span>
+                <span class="tag">CSS</span>
+                <span class="tag">JS</span>
+              </div>
+              <h3>Personal Portfolio</h3>
+              <p>Fully responsive personal portfolio website.</p>
+              <a
+                href="https://github.com/AnnuBhatta/Portfolio"
+                target="_blank"
+                class="project-link"
+                >View Project &rarr;</a
+              >
+            </div>
+           </div>
+
+           <div class="project reveal" data-category="cpp">
+            <img src="php.jpg" alt="Hospital Management System Using PHP" />
+            <div class="project-body">
+              <div class="project-tags">
+                <span class="tag">PHP</span>
+                <span class="tag">MySQL</span>
+              </div>
+              <h3>Hospital Management System Using PHP</h3>
+              <p>
+                A complete hospital management system built using PHP and MySQL.
+              </p>
+              <a
+                href="https://github.com/AnnuBhatta/Hospital-management-using-PHP"
+                target="_blank"
+                class="project-link"
+                >View Project &rarr;</a
+              >
+            </div>
+          </div>
+
+          <div class="project reveal" data-category="cpp">
+            <img src="C.jpg" alt="C Calculator project" />
+            <div class="project-body">
+              <div class="project-tags">
+                <span class="tag">C</span>
+                <span class="tag">Terminal</span>
+              </div>
+              <h3>C Calculator</h3>
+              <p>A simple calculator made using C programming.</p>
+              <a
+                href="https://github.com/AnnuBhatta/C-and-CPP-project/blob/main/C_project.c"
+                target="_blank"
+                class="project-link"
+                >View Project &rarr;</a
+              >
+            </div>
+          </div>
+
+          <div class="project reveal" data-category="cpp">
+            <img src="C++.jpg" alt="C++ Random Number Generator project" />
+            <div class="project-body">
+              <div class="project-tags">
+                <span class="tag">C++</span>
+                <span class="tag">Algorithms</span>
+              </div>
+              <h3>C++ Random Number Generator</h3>
+              <p>A program that generates random numbers using C++.</p>
+              <a
+                href="https://github.com/AnnuBhatta/Random-Quiz-Generator"
+                target="_blank"
+                class="project-link"
+                >View Project &rarr;</a
+              >
+            </div>
+          </div>
+
+          <div class="project reveal" data-category="web">
+            <img src="CRUD.jpg" alt="CRUD Operations project" />
+            <div class="project-body">
+              <div class="project-tags">
+                <span class="tag">PHP</span>
+                <span class="tag">MySQL</span>
+              </div>
+              <h3>CRUD Operations</h3>
+              <p>A full CRUD app built using PHP and MySQL.</p>
+              <a
+                href="https://github.com/AnnuBhatta/CRUD"
+                target="_blank"
+                class="project-link"
+                >View Project &rarr;</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CV -->
+    <section id="CV">
+      <div class="section-inner">
+        <p class="section-label">Resume</p>
+        <h2 class="section-title">Curriculum Vitae</h2>
+
+        <div class="cv-grid reveal">
+          <div class="cv-block">
+            <h3>Personal Information</h3>
+            <div class="cv-row"><span>Name</span><span>Anuja Bhatta</span></div>
+            <div class="cv-row">
+              <span>Email</span><span>anubhatta63@gmail.com</span>
+            </div>
+            <div class="cv-row"><span>Phone</span><span>9860520616</span></div>
+            <div class="cv-row">
+              <span>Location</span><span>BhimsenThapa-2, Gorkha</span>
+            </div>
+            <div class="cv-row">
+              <span>Status</span><span>3rd Year Student</span>
+            </div>
+          </div>
+
+          <div class="cv-block">
+            <h3>Experience &amp; Activities</h3>
+            <ul class="cv-list">
+              <li>
+                Participated in UI/UX competition — Best Presentation Award
+              </li>
+              <li>Attended Gemini workshop organized by GDC</li>
+              <li>Attended Web Development Session</li>
+              <li>Attended UI/UX workshop and session</li>
+              <li>Volunteered at Orbit Engineering Hacks/Expo</li>
+            </ul>
+          </div>
+
+          <div class="cv-block">
+            <h3>Technical Skills</h3>
+            <div class="cv-tags">
+              <span class="cv-tag">HTML</span>
+              <span class="cv-tag">CSS</span>
+              <span class="cv-tag">Bootstrap</span>
+              <span class="cv-tag">JavaScript</span>
+              <span class="cv-tag">PHP</span>
+              <span class="cv-tag">MySQL</span>
+              <span class="cv-tag">C</span>
+              <span class="cv-tag">C++</span>
+              <span class="cv-tag">Figma</span>
+            </div>
+          </div>
+
+          <div class="cv-block">
+            <h3>Soft Skills &amp; Languages</h3>
+            <div class="cv-tags">
+              <span class="cv-tag">Presentation</span>
+              <span class="cv-tag">Public Relations</span>
+              <span class="cv-tag">Teamwork</span>
+              <span class="cv-tag">Leadership</span>
+              <span class="cv-tag">Critical Thinking</span>
+              <span class="cv-tag">Effective Communication</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="cv-download-wrap reveal">
+          <button class="btn btn-primary" id="downloadCvBtn2">
+            Download Full CV (PDF)
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="Contact" class="section-alt">
+      <div class="section-inner">
+        <p class="section-label">Get In Touch</p>
+        <h2 class="section-title">Contact Me</h2>
+
+        <div class="contact-wrap">
+          <div class="contact-info reveal">
+            <h3>Let's work together</h3>
+            <p>
+              I am always open to discussing new opportunities, collaborations,
+              or conversations about tech.
+            </p>
+
+            <div class="contact-items">
+              <div class="contact-item">
+                <div class="contact-icon">
+                  <img src="Mail.png" alt="Email" />
+                </div>
+                <div>
+                  <small>Email</small>
+                  <strong>anubhatta63@gmail.com</strong>
+                </div>
+              </div>
+              <div class="contact-item">
+                <div class="contact-icon">
+                  <img src="linkedin.jpg" alt="LinkedIn" />
+                </div>
+                <div>
+                  <small>LinkedIn</small>
+                  <strong>anuja-bhatta-36bb84325</strong>
+                </div>
+              </div>
+              <div class="contact-item">
+                <div class="contact-icon">
+                  <img src="Gitbhub.png" alt="GitHub" />
+                </div>
+                <div>
+                  <small>GitHub</small>
+                  <strong>AnnuBhatta</strong>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="form-card reveal">
+            <form id="contactForm" novalidate>
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="fullName">Full Name *</label>
+                  <input
+                    type="text"
+                    id="fullName"
+                    name="fullName"
+                    placeholder="Your full name"
+                  />
+                  <span class="form-error" id="nameError"></span>
+                </div>
+                <div class="form-group">
+                  <label for="email">Email *</label>
+                  <input
+                    type="email"
+                    id="email"
+                    name="email"
+                    placeholder="you@email.com"
+                  />
+                  <span class="form-error" id="emailError"></span>
+                </div>
+              </div>
+
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="phone">Phone</label>
+                  <input
+                    type="tel"
+                    id="phone"
+                    name="phone"
+                    placeholder="+977 9800000000"
+                  />
+                </div>
+                <div class="form-group">
+                  <label for="subject">Subject</label>
+                  <input
+                    type="text"
+                    id="subject"
+                    name="subject"
+                    placeholder="Project Collaboration"
+                  />
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="message">Message *</label>
+                <textarea
+                  id="message"
+                  name="message"
+                  rows="5"
+                  placeholder="Tell me about your project..."
+                ></textarea>
+                <span class="form-error" id="messageError"></span>
+              </div>
+
+              <div class="checkbox-row">
+                <input type="checkbox" id="agree" name="agree" />
+                <label for="agree"
+                  >I confirm the information provided is correct *</label
+                >
+              </div>
+              <span class="form-error" id="agreeError"></span>
+
+              <button
+                type="submit"
+                class="btn btn-primary btn-full"
+                id="submitBtn"
+              >
+                Send Message
+              </button>
+
+              <div class="form-success" id="formSuccess">
+                Message sent successfully! I will get back to you soon.
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+      <div class="footer-top">
+        <div class="footer-logo">Anuja<span>Bhatta</span></div>
+        <p class="footer-copy">
+          &copy; 2025 Bhatta &mdash; All Rights Reserved.
+        </p>
+        <div class="social">
+          <a
+            href="https://www.linkedin.com/in/anuja-bhatta-36bb84325/"
+            target="_blank"
+            aria-label="LinkedIn"
+          >
+            <img src="linkedin.jpg" alt="LinkedIn" />
+          </a>
+          <a
+            href="https://github.com/AnnuBhatta"
+            target="_blank"
+            aria-label="GitHub"
+          >
+            <img src="Gitbhub.png" alt="GitHub" />
+          </a>
+          <a href="mailto:anubhatta63@gmail.com" aria-label="Email">
+            <img src="Mail.png" alt="Email" />
+          </a>
+          <a
+            href="https://x.com/AnujaBhatt91311"
+            target="_blank"
+            aria-label="Twitter / X"
+          >
+            <img src="Twitter.png" alt="X / Twitter" />
+          </a>
+        </div>
+      </div>
+    </footer>
+
+    <!-- TOAST -->
+    <div class="toast" id="toast"></div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
